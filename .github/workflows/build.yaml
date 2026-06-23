@@ -26,5 +26,5 @@ jobs:
           context: ./
           push: true
           tags: |
-                amasamadhi/docker-automationfirst:${{ env.SHORT_SHA }}
-                amasamadhi/docker-automationfirst:latest
+                amasamadhi/docker-automation:${{ env.SHORT_SHA }}
+                amasamadhi/docker-automation:latest
